@@ -64,7 +64,7 @@ merged.
 - Use of inline CSS is discouraged
 - Use of `!important` is not allowed.
 - No logs should be visible on production deployment. It is advised to use debugger instead.
-- IDE: VS-Code or its derivatives.
+- IDE: VS-Code or its derivatives and/or Intellij or its derivatives
 - For client-side: Light House score should always be above `80%` in each category before it can be deployed to production.
 
 ## Maintainer
