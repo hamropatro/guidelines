@@ -38,7 +38,7 @@ merged.
 
 - All the deployments should be made in k8s.
 - imagePullPolicy: `Always` in dev and `IfNotPresent` for production.
-- image tag: `:latest` in dev and `x.x.x` in prod. Production images should only be built and pushed by dockerhub and never manually.
+- image tag: `:latest` in dev and `x.y.z` in prod. Production images should only be built and pushed by dockerhub and never manually.
 - Tagging should be done to git commit and docker hub should watch for those tags and build docker images automatically.
 - Production server will watch for new docker image tags in docker hub and then create a pull request in gitops repo which should be manually merged to be deployed to production. Merging of the PR should be done by Team Lead or Manager.
 - Regular release should be at least 1 day prior to a holiday and in the morning.
