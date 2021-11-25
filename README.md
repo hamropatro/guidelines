@@ -46,6 +46,8 @@ merged.
 
 ## Backend
 
+See template [micronaut](https://github.com/hamropatro/micronaut).
+
 - Languages: Java with Micronaut framework.
 - All the backends should implement
   - health checks: readiness and liveness
@@ -57,6 +59,8 @@ merged.
 - CORS should only be enabled for same first party domain.
 
 ## Frontend
+
+See template [react-ant-cms](https://github.com/hamropatro/react-ant-cms).
 
 - All the configs should be configurable via environment variables
 - Nextjs with Typescript
