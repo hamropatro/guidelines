@@ -1,6 +1,6 @@
 # Technical guidelines for Parewa Team
 
-This document is intended for members (or future) members of the Parewa team. Please use this as a reference for any future or current projects that you're working on. In case of any issues/concerns please consult with a team lead or engineering manager.
+[This document](https://hamropatro.github.io/guidelines/) is intended for members (or future) members of the Parewa team. Please use this as a reference for any future or current projects that you're working on. In case of any issues/concerns please consult with a team lead or engineering manager.
 
 ## Git
 
