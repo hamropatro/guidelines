@@ -66,7 +66,7 @@ See template [react-ant-cms](https://github.com/hamropatro/react-ant-cms).
 - Nextjs with Typescript
 - UI frame-work: Framework7(client-side), ant-design for cms. Can be changed according to need.
 - Use of inline CSS is discouraged
-- Use of `!important` is not allowed.
+- Use of `!important` is highly discouraged. One exception is when you need to override the style from dependencies.
 - No logs should be visible on production deployment. It is advised to use debugger instead.
 - IDE: VS-Code or its derivatives and/or Intellij or its derivatives
 - For client-side: Light House score should always be above `80%` in each category before it can be deployed to production.
