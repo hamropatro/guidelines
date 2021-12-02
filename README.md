@@ -4,19 +4,17 @@
 
 ## Git
 
-Please follow
-[gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-for git. Gitflow can be ignored before the first release if a single person is working
-on a codebase.
-
 Every commit should be made in a new branch(feature, hotfix, etc). Each pull
 the request should be reviewed by at least one person other than oneself to be
 merged.
 
+- Follow [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- Follow [semver](https://semver.org/) for api and apps versioning.
+- Use prefixes to branche names(feat, bugfix, hotfix,) and separate prefix by ``/``. Eg: `feat/env-detection`,`hotfix/nullpointer`, etc.
 - Feature branch can be reviewed by any peer before it is merged into develop.
 - Hotfix branch should be reviewed by the team lead or engineering manager before it is merged into main.
 - Develop branch should be reviewed by the team-lead/engineering manager before it is merged into the main.
-- Use [conventional](https://www.conventionalcommits.org/en/v1.0.0/) guidelines for commit messages.
+- Use [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) guidelines for commit messages.
 
 ## Formatting
 
